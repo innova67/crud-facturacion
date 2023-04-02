@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx-populate/browser/xlsx-populate.min.js"></script>
+    <script type="module" src="guardar_datos.js"></script>
+  </head>
+  <body>
+    <h1>Formulario de registro</h1>
+    <form>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre"><br>
+      <label for="modelo">Modelo de teléfono:</label><br>
+      <input type="text" id="modelo" name="modelo"><br>
+      <label for="identificacion">Número de identificación:</label><br>
+      <input type="text" id="identificacion" name="identificacion"><br>
+      <label for="fecha">Fecha:</label><br>
+      <input type="date" id="fecha" name="fecha"><br>
+      <label for="codigoQR">Código QR:</label><br>
+      <input type="text" id="codigoQR" name="codigoQR"><br><br>
+      <button type="button" onclick="guardarInformacion()">Guardar datos</button>
+    </form>
+  </body>
+</html>
