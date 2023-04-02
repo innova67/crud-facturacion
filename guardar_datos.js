@@ -50,4 +50,6 @@ function guardarInformacion() {
 		});
 }
 
-console.log("hola, sistemas iniciados")
+console.log("hola, sistemas iniciados");
+window.miFuncion = guardarInformacion;
+window.holis = hola;
