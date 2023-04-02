@@ -1,9 +1,13 @@
 import * as XlsxPopulate from "https://cdn.jsdelivr.net/npm/xlsx-populate/browser/xlsx-populate.min.js";
 
+function hola() {
+  console.log("hola de vuelta!!!");
+}
+
 function guardarInformacion() {
 
   console.log("guardando info");
-  
+
 	var nombre = document.getElementById("nombre").value;
 	var modelo = document.getElementById("modelo").value;
 	var identificacion = document.getElementById("identificacion").value;
